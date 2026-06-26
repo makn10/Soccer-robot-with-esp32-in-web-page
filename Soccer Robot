@@ -6,13 +6,13 @@ const char* ssid = "Soccer Robot";
 const char* password = "12345678";
 
 // --- মোটর পিন কনফিগারেশন ---
-const int motorLeftPWM = 12;   
-const int motorLeftDir1 = 14;  
-const int motorLeftDir2 = 27;  
+const int motorLeftPWM = 26;   
+const int motorLeftDir1 = 13;  
+const int motorLeftDir2 = 12;  
 
 const int motorRightPWM = 25;  
-const int motorRightDir1 = 26; 
-const int motorRightDir2 = 33; 
+const int motorRightDir1 = 14; 
+const int motorRightDir2 = 27; 
 
 // গ্লোবাল ভেরিয়েবল
 int currentSpeed = 0;      
