@@ -204,10 +204,10 @@ void moveRobot(int speed, String steer) {
   int rightPWM = pwmValue;
 
   // সকার টার্নিং অপ্টিমাইজেশন (শার্প কার্ভ টার্ন)
-  if (steer == "L") {
+  if (steer == "R") {
     leftPWM = (speed >= 0) ? (pwmValue * 0.15) : pwmValue;
     if(speed < 0) rightPWM = pwmValue * 0.15;
-  } else if (steer == "R") {
+  } else if (steer == "L") {
     rightPWM = (speed >= 0) ? (pwmValue * 0.15) : pwmValue;
     if(speed < 0) leftPWM = pwmValue * 0.15;
   }
